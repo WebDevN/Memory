@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 500px;
+    margin-top: 150px;
+}
+
+#header {
+    text-align: center;
+}
+
+tr {
+    height: 20px;
+    border: 5px solid lightblue;
+}
+
+td {
+    border: 5px solid lightblue;
+}
+
+tbody > tr {
+    height: 150px;
+}
+
+

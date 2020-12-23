@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="Memory.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <td id="header" colspan=3>Memory fails: <span id="fails">0</span></td>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="00" onclick=flip(event)></td>
+                <td id="01" onclick=flip(event)></td>
+                <td id="02" onclick=flip(event)></td>
+            </tr>
+            <tr>
+                <td id="10" onclick=flip(event)></td>
+                <td id="11" onclick=flip(event)></td>
+                <td id="12" onclick=flip(event)></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="Memory.js"></script>
+</html>
